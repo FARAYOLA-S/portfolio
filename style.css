@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+main{
+border: 2px solid red;
+max-width: 1500px;
+margin: 0 auto;
+height: auto; 
+background: #FFFFFF;
+
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: right;
+}
+/* all those are default syling i want to give */
+
+
+.navbar {
+    width: 40%; 
+    display: flex;
+    align-items: center;    
+}
+.navbar > ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+ li > a{
+    text-decoration: none;
+    color: #000000;
+}
+
+li{
+    list-style: none;
+}
+
+li > a:hover{
+    color:#FF6464;
+}
+section{
+    margin:0 235px;
+  }
+
+h1{
+width: 156px;
+height: 54px;
+left: 235px;
+top: 160px;
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+
+color: #21243D;
+}
+.content-wrapper{
+    padding: 20px 5px;
+}
+.content-wrapper > div{
+    margin: 20px auto;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 20px 5px;
+}
+.content-wrapper > div> h2{
+    color: #21243D;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+}
+.content-wrapper > div > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    width: 95%;
+    margin-top: 10px;
+}
+ .ola{ 
+    font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #21243D;
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+.bisi{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+    padding-left: 10px;
+}
+footer{
+     height: 142px;
+     width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+.images > img{
+    width: 30px;
+    height: 30px;
+}
+
+  .copyright{
+   
+    font-weight: 400;
+    Size:14px;
+    display: flex;
+    justify-content: center;
+    height:21%;
+    color: #21243D;
+  }
+  
+
+ 
+  
