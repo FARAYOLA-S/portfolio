@@ -54,7 +54,7 @@ ul > li:hover{
     padding: 10px;
     display: flex;
     width: 75%;
-    height: 45vh;
+    height: 55vh;
 }
 h1{
     font-weight: 650;
@@ -66,18 +66,19 @@ h1{
 }
 
 .left-content, .right-content{
-    padding-top: 100px;
-    Size:20px;
-    width: 40%;
+    margin-top: 100px;
+    /* Size:20px; */
+
 }
 .left-content > p{
-    padding-top: 20px ;
+    padding-top: 30px ;
     width: 497px;
     height: 66px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #21243D;
+    margin-bottom: 60px;
 }
 .left-content{
     width: 70%;
@@ -87,25 +88,21 @@ h1{
     width: 30%;
 }
 
-.img-box{
-    width: 243px;
-    height: 243px;
-
-}
 .img-box > img{
     border-radius: 100%;
-    width: 243px;
-    height: 243px;
+    width: 350px;
+    height: 350px;
 }
 
 .btn{
-    margin-top: 20px;
+    margin-top: 40px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 29px;
-    width: 150px;
-    height: 30px;
-    background: #FF6464;
+    width: 250px;
+    height: 50px;
+    background-color: #FF6464;
+    border: 2px solid #FF6464;
     }
 
  .btn:hover{
@@ -116,6 +113,7 @@ h1{
     color:#FFFFFF;
  }
  .recent-Post{
+    margin-top: 80px;
     background: #EDF7FA;
     height: 40%;
     width: 75%;
@@ -132,20 +130,22 @@ h1{
     width: 150px;
     height: 60px;
     color: #21243D; 
-    margin-left: 30px;
+    margin-left: 40px;
 }
-.tags > span >a {
+.tags > div >a {
     color: #00A8CC;
     font-weight: 400;
     font-size: 16px;
     width: 250px;
     height: 20px;
+    margin-right: 40px;
     line-height: 24px;
     text-align: right;
     text-decoration: none;
     display: flex;
-    justify-content: space-around;
-    padding-top: 20px;
+    justify-content: end;
+    margin-top: 25px;
+  
 
 }
 .wrapper{
@@ -169,7 +169,10 @@ h1{
     width: 374px;
     height: 85px;
 }
-
+.newer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .border1{
     padding-right:40px ;
     border-right: 2px solid #21243D;
@@ -253,7 +256,7 @@ h1{
 footer{
     height: 130px;
     width: 100%;
-   margin-top: 50px;
+   margin-top: 100px;
    display: flex;
    flex-direction: column;
    justify-content: space-around;

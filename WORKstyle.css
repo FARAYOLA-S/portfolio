@@ -14,12 +14,9 @@ height: auto;
 background: #FFFFFF;
 
 }
-/* section{
-    margin: 20px 0px;
-} */
 header{
     width: 100%;
-    height: 10%;
+    height: 15%;
     display: flex;
     justify-content: right;
     box-shadow: 0.5px 2px 11px grey;
@@ -37,16 +34,18 @@ header{
     align-items: center;
     height: 50px;
     width: 100%;
+    list-style: none;
    
 }
- li { text-decoration: none;
+ ul> li >a{ 
+    text-decoration: none;
     color: #000000;
-    list-style: none;
+    font-size: 20px;
     cursor: pointer;
 }
    
 
-ul > li:hover{
+ul > li>a:hover{
     color:#FF6464;
 }
 section{
@@ -60,10 +59,11 @@ h1{
     font-size: 44px;
     line-height: 60px;
     color: #21243D;
+    margin-bottom: 50px;
     }
     
     h3{
-        font-weight: 700;
+    font-weight: 700;
     font-size: 30px;
     line-height: 44px;
     color: #21243D;
@@ -84,9 +84,9 @@ h1{
         color: #21243D;
         padding-bottom: 20px;
     }
-    .year{
-        width: 42px;
-        height: 60px;
+.year{
+ width: 42px;
+     height: 60px;
         background-color:#21243D ;
         color: #FFFFFF;
          border-radius: 50%;
@@ -94,7 +94,7 @@ h1{
         font-size: 18px;
         line-height: 60px;
         padding: 5px 10px;
-    }
+}
    .olab{
     width: 97px;
     height: 29px;
@@ -108,33 +108,31 @@ h1{
     width: 246px;
     height: 180px;
 }
-    footer{
-        height: 142px;
-        width: 100%;
-       margin-top: 50px;
-       display: flex;
-       flex-direction: column;
-       justify-content: space-around;
-       align-items: center;
-       padding: 20px;
+ footer{
+     height: 142px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
    
    }
-   .images{
-       display: flex;
-       justify-content: space-evenly;
-       width: 20%;
-   }
-   .images > img{
-       width: 30px;
-       height: 30px;
-   }
-   
-     .copyright{
-      
-       font-weight: 400;
-       Size:14px;
-       display: flex;
-       justify-content: center;
-       height:21%;
-       color: #21243D;
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+.images > img{
+width: 30px;
+height: 30px;
+}
+ .copyright{   
+ font-weight: 400;
+ Size:14px;
+ display: flex;
+justify-content: center;
+height:21%;
+ color: #21243D;
      }
